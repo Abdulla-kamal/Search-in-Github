@@ -160,8 +160,16 @@ a {
   .searchContainer > span {
     width: 90%;
   }
+
+  .repos .repo >  span {
+font-size: 16px;
+  }
   .repos .repo{
     flex-direction: column;
     gap: 20px;
+  }
+
+  .repos .repo > div span:first-child {
+    text-wrap: nowrap;
   }
 }
